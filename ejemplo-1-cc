@@ -1,0 +1,9 @@
+// Archivo: ejemplo-1.cc
+
+class C {
+		int i;	// privado
+	public:
+		int f( C c ){ return i + c.i; }
+}
+	
+// Fin Archivo: ejemplo-1.cc
